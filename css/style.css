@@ -596,7 +596,7 @@ Working Section Css
 .working-form .w-form .sub-btn input{
     padding: 2px 27px;
     border-radius: 5px;
-    margin-left: 79px;
+    margin-left: 111px;
     display: flex;
     font-weight: 600;
     background-color:#113692;
@@ -1141,9 +1141,7 @@ video{
         max-width: 100%;
         padding:  0px;
     }
-    .business-section .sub-btn input {
-        padding: 5px 20px;
-    }
+    
     .pre-registered {
         padding: 40px 0px;
     }
@@ -1169,8 +1167,32 @@ video{
     .working-form .w-form .sub-btn input {
         margin-left:  0px;
     }
+    .footer-section p {
+        text-align: center;
+    }
     .footer-section .social-icon {
-        text-align: left;
+        text-align: center;
+    }
+    .post-section h1 {
+        font-size: 30px;
+        margin: 0px;
+        margin-top: 109px;
+    }
+    .blog-inner .blog-inner2 input {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .terms-service .tc_item h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .terms-service .tc_body ol li h3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .terms-service .tc_body ol li p{
+        text-align: justify;
     }
   
 }
@@ -1263,9 +1285,7 @@ video{
         max-width: 100%;
         padding:  0px;
     }
-    .business-section .sub-btn input {
-        padding: 5px 20px;
-    }
+    
     .pre-registered {
         padding: 40px 0px;
     }
@@ -1291,7 +1311,31 @@ video{
     .working-form .w-form .sub-btn input {
         margin-left:  0px;
     }
+    .footer-section p {
+        text-align: center;
+    }
     .footer-section .social-icon {
-        text-align: left;
+        text-align: center;
+    }
+    .post-section h1 {
+        font-size: 30px;
+        margin: 0px;
+        margin-top: 109px;
+    }
+    .blog-inner .blog-inner2 input {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .terms-service .tc_item h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .terms-service .tc_body ol li h3 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .terms-service .tc_body ol li p{
+        text-align: justify;
     }
 }
