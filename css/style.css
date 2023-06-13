@@ -1,0 +1,1297 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight: 500;
+    overflow-x: hidden !important;
+}
+html{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*================
+Header Css
+=================*/
+
+.header-section{
+    margin: auto !important;
+}
+.header-section .navbar{
+    width: 100%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+.header-inner{
+    width: 50%;
+}
+.header-inner .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    padding: 6px 7px;
+    background: #09a7ad;
+    border-radius: 12px;
+}
+.header-inner .input-group-text{
+    background-color: #fff;
+    transition: all 0.5s ease;
+    color:#000;
+    border-radius: 8px;
+}
+.header-inner .input-group-text:hover{
+    background-color: #0E3692;
+    border-color: #0E3692;
+    
+}
+.header-section .bg-light {
+    background-color:#fff !important;
+    padding: 30px;
+}
+.header-section .logo{
+	width:120px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+    color: #0E3692;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #2F455C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #0E3692;
+}
+
+.header-inner .form-control {
+    border: 2px solid #09a7ad;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0px;
+}
+.header-inner .search-one{
+    width: 26%;
+    border: 2px solid #113692;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #113692;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.header-inner .search-one:hover{
+    width: 26%;
+    border: 2px solid #09a7ad;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #0E3692;
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row-wrap;
+}
+.header-inner .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #0E3692;
+}
+.header-inner .fa:hover {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+}
+
+
+/*================
+Banner Css
+=================*/
+.banner-section{
+	padding: 80px 0px;
+    text-align: left;
+    margin-top: 100px;
+}
+.banner-inner{
+}
+.banner-inner input{
+	width: 80%;
+    padding: 6px 15px;
+    margin: 6px 0px;
+    border: 3px solid #0E3692;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #0E3692;
+    text-align: center;
+}
+.banner-inner .submit-btn{
+	font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    background-color:#113692;
+    border-color: #113692;
+    color: #ffffff;
+}
+.banner-inner .submit-btn:hover{
+	color: #ffffff;
+    background-color: #09a7ad;
+    border-color: #09a7ad;
+    border: 1px solid #ffff;
+}
+.banner-section .banner-right{
+	margin: 0px 36px 0;
+}
+.banner-section .banner-right img{
+	width: 81%;
+    margin-left: 80px;
+}
+.banner-section h3{
+	font-size: 22px;
+    color: #2F455C;
+    margin-bottom: 5px;
+}
+.banner-section h1{
+	font-size: 25px;
+    color: #2F455C;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 14px;
+}
+.banner-section p{
+	font-size: 18px;
+    color: #2F455C;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 300;
+    
+}
+
+
+
+/*================
+Support Section Css
+=================*/
+.support-section{
+	padding: 140px 0px;
+    text-align: center;
+}
+
+.support-inner{
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+.support-inner .sus{
+    padding: 153px 0px;
+    text-align: left;
+    display: block;
+    margin-left: -60px;
+}
+.support-inner label{
+    border: 1px solid #09a7ad;
+    border-radius: 5px;
+    background: #09a7ad;
+    width: 88%;
+    padding: 7px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 70px;
+    transition: all 0.8s ease;
+}
+
+.support-inner #pic{
+    width: 100%;
+}
+
+.support-inner label:hover{
+    background-color:#113692;
+    color: #ffff;
+    border: 2px solid #113692;
+    cursor: pointer;
+}
+
+.support-right{
+    margin: 40px 90px;
+    
+}
+.support-right img{
+    width:276px;
+}
+
+.support-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #2F455C;
+}
+.support-inner .card {
+    border: none;
+    margin-top: 40px;
+}
+
+
+
+
+/*================
+Support Section Css
+=================*/
+.fq-section{
+    text-align: center;
+    background: #09a7ad;
+    padding: 140px 0px;
+}
+.fq-section .fq-left{
+    color: #0E3692;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.fq-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+.fq-section p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.fq-right h3{
+    font-size: 20px;
+}
+
+details{
+    margin: 10px;
+    border: 1px solid #09a7ad;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: #09a7ad;
+    color: #fff;
+    display: block;
+}
+
+
+
+/*================
+question Section Css
+=================*/
+.question-section{
+    text-align: center;
+    padding: 80px 0px;
+}
+.question-section h3{
+    font-size: 32px;
+    font-weight: 700;
+    color:#2F455C;
+}
+.question-section p{
+    font-size: 18px;
+    color: #2F455C;
+    font-weight: 600;
+}
+.question-section .apps-btn{
+    background-color: #113692;
+    color: #ffff;
+    border: 2px solid #113692;
+    border-radius: 20px;
+    padding: 8px 40px;
+    transition: all 0.8s ease;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.question-section .email-btn{
+    background-color:#113692;
+    border: 2px solid #113692;
+    border-radius: 20px;
+    color: #ffff;
+    padding: 8px 58px;
+    transition: all 0.8s ease;
+    font-weight: 600;
+}
+.question-section .apps-btn:hover{
+    background-color:#09a7ad;
+    border: 2px solid #09a7ad;
+    color: #ffff;
+    transition: all 0.8s ease;
+    font-weight: 600;
+}
+.question-section .email-btn:hover{
+    background-color:#09a7ad;
+    border: 2px solid #09a7ad;
+    color: #ffff;
+    transition: all 0.8s ease;
+    font-weight: 600;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 18px;
+    color: #fff;
+    margin: 0px 4px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-color: #fff;
+}
+
+
+
+/*================
+Business Section Css
+=================*/
+.business-section{
+    padding: 150px 0px;
+    background: #09a7ad;
+    text-align: center;
+}
+.business-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+.business-section p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.business-section .form-name{
+    display: inline-flex !important;
+    width: 100% !important;
+    margin: 6px 0px !important;
+}
+.business-section .form-name label{
+    margin: 0px 10px;
+}
+
+.business-section .form-name input{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+#business-category{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display:inline-flex;
+}
+.business-section .business-logo{
+    display: flex;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 9px;
+}
+
+.business-section #formFile{
+    width: 160%;
+    padding: 8px 4px;
+    border-radius: 5px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.business-section .sub-btn input{
+    width: 9.5%;
+    padding: 2px 24px;
+    border-radius: 5px;
+    display: flex;
+    font-weight: 600;
+    background-color: #113692;
+    border: 2px solid #113692;
+    transition: all 0.8s ease;
+    color: #fff;
+    margin-left: 19px;
+}
+.business-section .sub-btn input:hover{
+    background-color:#fff;
+    color: #09a7ad;
+    border: 1px solid #113692;
+    font-weight: 600;
+}
+
+
+
+/*========================
+Pre-registered Section Css
+=========================*/
+.pre-registered{
+    width:100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.pre-registered h3{
+    font-size: 28px;
+    font-weight: 600;
+    color:#2F455C;
+}
+.pre-registered .owl-carousel{
+    padding:60px 0px;
+}
+.pre-registered .owl-carousel .owl-item img{
+    display: block;
+    width: 80px;
+}
+.pre-logo{
+    margin: auto;
+    padding: 40px;
+}
+.pre-logo .card{
+    border: none;
+    width: 40%;
+    margin: 0px 20px;
+}
+
+
+
+/*========================
+Join Us Section Css
+=========================*/
+.join-us{
+    padding: 140px 0px;
+}
+.join-us h1{
+    font-size: 32px !important;
+    font-weight: 700;
+    color: #2F455C;
+    text-align: center;
+}
+.join-us h1 span{
+    color:#09a7ad;
+}
+.join-us p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2F455C;
+}
+
+
+
+
+/*========================
+Software Section Css
+=========================*/
+.Software{
+    padding: 40px 0px;
+    margin: 0px auto;
+    text-align: justify;
+}
+.Software h1{
+    font-weight: 600;
+    margin:20px 0px;
+}
+.Software h6{
+    margin-top: -15px;
+}
+.Software p{
+    line-height: 27px;
+}
+.Software p span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.team{
+    padding:20px 0px;
+}
+.team button{
+    width: 70%;
+    padding: 8px 20px;
+    border: 1px solid #113692;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #113692;
+    font-weight: 600;
+    display: flex;
+    margin: 20px auto;
+    transition: all 0.8s ease;
+
+}
+.team button:hover{
+    background-color:#09a7ad;
+    color: #ffff;
+    border: 2px solid #4297C8;
+}
+
+
+
+/*========================
+Working Section Css
+=========================*/
+.working-section{
+    padding:40px 0px;
+    text-align: center;
+}
+.working-section h1{
+    font-size: 32px !important;
+    font-weight: 700;
+    color: #2F455C;
+}
+.working-section p{
+    font-size: 16px;
+    padding: 0px 60px;
+}
+
+.working-form .form-name input{
+    display: flex;
+    width: 80%;
+    padding: 8px 20px;
+    border: 3px solid #09a7ad;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.working-form .w-form .business-logo{
+    display: block;
+    font-weight: 600;
+    margin-right: -100px !important;
+}
+.working-form .w-form input{
+    margin-left: 96px;
+    margin-bottom: 10px;
+}
+.working-form #formFile{
+    padding: 8px 4px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 92px;
+}
+.working-form .w-form .sub-btn input{
+    padding: 2px 27px;
+    border-radius: 5px;
+    margin-left: 79px;
+    display: flex;
+    font-weight: 600;
+    background-color:#113692;
+    border: 2px solid #113692;
+    color: #ffff;
+    transition: all 0.8s ease;
+}
+.working-form .sub-btn input:hover{
+    background-color:#09a7ad;
+    color: #ffff;
+    border: 2px solid #09a7ad;
+    font-weight: 600;
+}
+
+
+
+
+/*========================
+Footer Section Css
+=========================*/
+.footer-section{
+    padding: 30px 0px;
+    background-color:#113692;
+}
+.footer-section p{
+    color:#fff;
+    text-align:left;
+    padding: 5px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer-section .condition a{
+    color: #fff;
+}
+.footer-section .social-icon{
+    width:100%;
+    text-align: right;
+    padding: 20px 0px;
+}
+.social-icon ul{
+
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0px 10px;
+
+}
+.social-icon ul li a i{
+    color:#fff;
+    font-size: 24px;
+    transition: 0.5s;
+}
+.social-icon ul li a i:hover{
+    color:#4297C8;
+}
+
+
+
+
+/*========================
+Privacy policy Section Css
+=========================*/
+.privacy-section{
+    padding:80px 0px;
+}
+.privacy-section h1{
+    text-align: center;
+}
+.privacy-section h1 span{
+    color:#4297C8;
+}
+.privacy-section p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+    line-height: 26px;
+}
+.privacy-section h3{
+    font-size: 24px;
+}
+.privacy-section h6{
+    margin-top: 25px;
+}
+
+
+
+/*========================
+Terms of use Section Css
+=========================*/
+.terms-section{
+}
+.flex_align_justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex_align{
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    min-height: 64vh;
+    padding: 0px 20px;
+}
+.terms-service{
+    width:680px;
+    max-width: 100%;
+    height: 500px;
+    color:#2F455C;
+    box-sizing: border-box;
+    text-align: left;
+    background: #fff;
+    border-radius:5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1.15);
+}
+.terms-service .tc_item{
+    padding: 20px 40px;
+}
+.terms-service .tc_item h2{
+    text-align: center;
+}
+.terms-service .tc_head{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 1.15);
+    height: 150px;
+}
+.terms-service .tc_body{
+    height: calc(100% - 170px);
+    overflow: auto;
+    padding-right: 20px;
+}
+.terms-service .tc_body ol li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.terms-service .tc_body ol li h3{
+    margin-bottom: 5px;
+}
+
+
+
+/*========================
+Blog Section Css
+=========================*/
+
+.blog-section{
+    width:100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.blog-section{
+    padding: 20px 0px;
+}
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    margin:auto;
+}
+
+.blog-section h3 {
+    text-align: left;
+}
+.blog-section p {
+    text-align: left;
+    margin: 8px 0px 30px;
+}
+
+.blog-section .btn{
+    display: inherit;
+    color: #fff;
+    background-color: #113692;
+    border-color: #113692;
+    font-weight: 500;
+    transition: all 0.8s ease;
+}
+.blog-section .btn:hover{
+    background-color: #09a7ad;
+    border-color:#09a7ad;
+    color: #fff;
+    font-weight: 500;
+}
+.blog-section p{
+  color:#2F455C;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+
+
+/*========================
+Blog Inner Section Css
+=========================*/
+.blog-inner{
+    width: 86%;
+    padding: 40px 0px;
+    margin: 0px auto;
+}
+.blog-inner img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.blog-inner .blog-inner2 label{
+    display: block;
+}
+.b-button{
+    margin:10px;
+}
+.blog-inner .blog-btn{
+    width: 50%;
+    background: #113692;
+    color: #ffff;
+    font-weight: 500;
+    border: 1px solid #113692;
+    border-radius: 5px;
+    padding: 2px 0px;
+    margin-left: -10px;
+    transition: all 0.8s ease;
+}
+.blog-inner .blog-btn:hover{
+    background-color: #09a7ad;
+    border-color:#09a7ad;
+    color: #fff;
+    font-weight: 500;
+}
+.blog-inner .blog-right{
+    display: inline-block;
+    margin: 77px 40px;
+}
+
+.blog-inner .blog-inner2 input{
+    overflow: visible;
+    width: 433px;
+    padding: 0px 15px;
+}
+
+/*========================
+Post Section Css
+=========================*/
+.post-section{
+    width:100%;
+    padding: 80px 0px;
+    text-align: left;
+}
+
+.post-section img {
+        margin: 20px 0px;
+        width: 50%;
+}
+.post-section h1 {
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 90px;
+}
+.post-section p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.post-section .ss-icon{
+    display: block;
+}
+
+.blog-inner .post-btn{
+    width: 50%;
+    background: #0E3692;
+    color: #ffff;
+    font-weight: 600;
+    border: 1px solid #0E3692;
+    border-radius: 5px;
+    padding-top: 4px;
+    transition: all 0.8s ease;
+    margin-top: 8px;
+    text-align: center;
+}
+.blog-inner .post-btn:hover{
+    background-color: #4297C8;
+    border-color:#4297C8;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+video{
+    width: 100%;
+}
+
+/* responsive csss: SA */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .header-inner {
+        width: 38%;
+    }
+    .banner-section .banner-right img {
+        width: 70%;
+        margin: 0 15%;
+    }
+    form.business-form {
+        width: 98%;
+    }
+    .working-section form{
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .working-form .form-name input {
+        display: flex;
+        width: 100%;   
+    }
+    .working-section .col-3{
+        width: 100%;
+    }
+    .working-form .w-form .business-logo {
+        margin-right: 0!important;
+    }
+    .working-form .w-form input {
+        margin-left: 0px;
+    }
+    .working-form .w-form .sub-btn input {
+        margin-left: 20px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   .header-inner {
+        margin-top: 0px;
+    }
+    .header-section .navbar {
+    }
+    .banner-inner {
+        text-align: center;
+    }
+    .banner-section .banner-column{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .banner-section .banner-right {
+        margin: 0px 0px 0px;
+    }
+    .banner-section .banner-right img {
+        width: 35%;
+        margin-left: 0px;
+    }
+    .header-section .bg-light {
+        padding: 30px 10px;
+    }
+    .banner-section {
+        text-align: center;
+    }
+    .banner-section h1 {
+        text-align: center;
+    }
+    .banner-section p {
+        text-align: center;
+    }
+    video {
+        margin: 20px 0px;
+    }
+    .support-section {
+        padding: 40px 0px;
+    }
+    .banner-section {
+        padding: 80px 0px 0px 0px;
+    }
+    .support-inner {
+        padding: 0px 0px 0px 0px;
+    }
+    .support-inner .sus {
+        padding: 20px 0px;
+        margin-left: 0;
+    }
+    .support-inner label {
+        width: 90%;
+        margin: 10px;
+    }
+    .fq-section {
+        padding: 60px 0px;
+    }
+    details {
+        margin: 10px 0px;
+    }
+    .question-section {
+        padding: 40px 0px;
+    }
+    .business-section {
+        padding: 40px 0px;
+    }
+    .business-section .business-form{
+        width: 92%;
+    }
+    .business-section .sub-btn input {
+        width: fit-content;
+        margin-left: 20px;
+    }
+    .business-section .col-3{
+        padding:  0px 20px;
+    }
+
+    form {
+        width: 100%;
+        text-align: left;
+    }
+    .col-3 {
+        max-width: 100%;
+        padding:  0px;
+    }
+    .business-section .sub-btn input {
+        padding: 5px 20px;
+    }
+    .pre-registered {
+        padding: 40px 0px;
+    }
+    .pre-logo .card {
+        width: 40%;
+        margin: 10px auto;
+    }
+    .join-us {
+        padding: 40px 0px;
+    }
+    .working-section {
+        padding: 0px 0px 40px 0px;
+    }
+    .working-form .w-form input{
+        margin-left: 0px;
+    }
+    .working-form .form-name input {
+        width: 100%;
+    }
+    .working-form .w-form .business-logo {
+        margin-right: 0px!important;
+    }
+    .working-form .w-form .sub-btn input {
+        margin-left:  0px;
+    }
+    .footer-section .social-icon {
+        text-align: right;
+    }
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+  .header-inner {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .header-section .navbar {
+    }
+    .banner-inner {
+        text-align: center;
+    }
+    .banner-section .banner-right {
+        margin: 0px 0px 0px;
+    }
+    .banner-section .banner-right img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .header-section .bg-light {
+        padding: 30px 10px;
+    }
+    .banner-section {
+        text-align: center;
+    }
+    .banner-section h1 {
+        text-align: center;
+    }
+    .banner-section p {
+        text-align: center;
+    }
+    video {
+        margin: 20px 0px;
+    }
+    .support-section {
+        padding: 40px 0px;
+    }
+    .banner-section {
+        padding: 80px 0px 0px 0px;
+    }
+    .support-inner {
+        padding: 0px 0px 0px 0px;
+    }
+    .support-inner .sus {
+        padding: 20px 0px;
+        margin-left: 0;
+    }
+    .support-inner label {
+        width: 90%;
+        margin: 10px;
+    }
+    .fq-section {
+        padding: 60px 0px;
+    }
+    details {
+        margin: 10px 0px;
+    }
+    .question-section {
+        padding: 40px 0px;
+    }
+    .business-section {
+        padding: 40px 0px;
+    }
+    .business-section .business-form{
+        width: 92%;
+    }
+    .business-section .sub-btn input {
+        width: fit-content;
+        margin-left: 20px;
+    }
+    .business-section .col-3{
+        padding:  0px 20px;
+    }
+
+    form {
+        width: 100%;
+        text-align: left;
+    }
+    .col-3 {
+        max-width: 100%;
+        padding:  0px;
+    }
+    .business-section .sub-btn input {
+        padding: 5px 20px;
+    }
+    .pre-registered {
+        padding: 40px 0px;
+    }
+    .pre-logo .card {
+        width: 40%;
+        margin: 10px auto;
+    }
+    .join-us {
+        padding: 40px 0px;
+    }
+    .working-section {
+        padding: 0px 0px 40px 0px;
+    }
+    .working-form .w-form input{
+        margin-left: 0px;
+    }
+    .working-form .form-name input {
+        width: 100%;
+    }
+    .working-form .w-form .business-logo {
+        margin-right: 0px!important;
+    }
+    .working-form .w-form .sub-btn input {
+        margin-left:  0px;
+    }
+    .footer-section .social-icon {
+        text-align: left;
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+    .header-inner {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .header-section .navbar {
+    }
+    .banner-inner {
+        text-align: center;
+    }
+    .banner-section .banner-right {
+        margin: 0px 0px 0px;
+    }
+    .banner-section .banner-right img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .header-section .bg-light {
+        padding: 30px 10px;
+    }
+    .banner-section {
+        text-align: center;
+    }
+    .banner-section h1 {
+        text-align: center;
+    }
+    .banner-section p {
+        text-align: center;
+    }
+    video {
+        margin: 20px 0px;
+    }
+    .support-section {
+        padding: 40px 0px;
+    }
+    .banner-section {
+        padding: 80px 0px 0px 0px;
+    }
+    .support-inner {
+        padding: 0px 0px 0px 0px;
+    }
+    .support-inner .sus {
+        padding: 20px 0px;
+        margin-left: 0;
+    }
+    .support-inner label {
+        width: 90%;
+        margin: 10px;
+    }
+    .fq-section {
+        padding: 60px 0px;
+    }
+    details {
+        margin: 10px 0px;
+    }
+    .question-section {
+        padding: 40px 0px;
+    }
+    .business-section {
+        padding: 40px 0px;
+    }
+    .business-section .business-form{
+        width: 92%;
+    }
+    .business-section .sub-btn input {
+        width: fit-content;
+        margin-left: 20px;
+    }
+    .business-section .col-3{
+        padding:  0px 20px;
+    }
+
+    form {
+        width: 100%;
+        text-align: left;
+    }
+    .col-3 {
+        max-width: 100%;
+        padding:  0px;
+    }
+    .business-section .sub-btn input {
+        padding: 5px 20px;
+    }
+    .pre-registered {
+        padding: 40px 0px;
+    }
+    .pre-logo .card {
+        width: 40%;
+        margin: 10px auto;
+    }
+    .join-us {
+        padding: 40px 0px;
+    }
+    .working-section {
+        padding: 0px 0px 40px 0px;
+    }
+    .working-form .w-form input{
+        margin-left: 0px;
+    }
+    .working-form .form-name input {
+        width: 100%;
+    }
+    .working-form .w-form .business-logo {
+        margin-right: 0px!important;
+    }
+    .working-form .w-form .sub-btn input {
+        margin-left:  0px;
+    }
+    .footer-section .social-icon {
+        text-align: left;
+    }
+}
