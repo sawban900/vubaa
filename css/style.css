@@ -919,13 +919,13 @@ video{
         width: 100%;
     }
     .working-form .w-form .business-logo {
-        margin-right: 0!important;
+        margin-left: -60px;
     }
     .working-form .w-form input {
-        margin-left: 0px;
+       margin-left: -60px;
     }
     .working-form .w-form .sub-btn input {
-        margin-left: 20px;
+        margin-left: -46px;
     }
 }
 
@@ -1152,6 +1152,9 @@ video{
     .join-us {
         padding: 40px 0px;
     }
+    .team button {
+        text-align: left;
+    }
     .working-section {
         padding: 0px 0px 40px 0px;
     }
@@ -1295,6 +1298,9 @@ video{
     }
     .join-us {
         padding: 40px 0px;
+    }
+    .team button {
+        text-align: left;
     }
     .working-section {
         padding: 0px 0px 40px 0px;
